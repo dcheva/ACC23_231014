@@ -2,7 +2,7 @@
 	"version": 0,
 	"enableManufacturerExtras": false,
 	"configurationName": "",
-	"carControllerMode": 0,
+	"carControllerMode": 2,
 	"gearShiftDebouncingMs": 50,
 	"commandDevices": [
 		{
@@ -41,9 +41,9 @@
 			],
 			"forceFeedbackGain": 1,
 			"steerScale": 1,
-			"steerLock": 240,
+			"steerLock": 600,
 			"dynamicDamping": 1,
-			"steerLinearity": 2.4000000953674316,
+			"steerLinearity": 1.5,
 			"roadEffects": 0,
 			"minDamper": 0,
 			"damperGain": 1,
@@ -470,6 +470,39 @@
 				"key":
 				{
 					"key": "C",
+					"bShift": false,
+					"bCtrl": false,
+					"bAlt": false,
+					"bCmd": false
+				}
+			},
+			{
+				"actionType": "None",
+				"key":
+				{
+					"key": "None",
+					"bShift": false,
+					"bCtrl": false,
+					"bAlt": false,
+					"bCmd": false
+				}
+			},
+			{
+				"actionType": "SetMfdStandings",
+				"key":
+				{
+					"key": "None",
+					"bShift": false,
+					"bCtrl": false,
+					"bAlt": false,
+					"bCmd": false
+				}
+			},
+			{
+				"actionType": "Starter",
+				"key":
+				{
+					"key": "I",
 					"bShift": false,
 					"bCtrl": false,
 					"bAlt": false,

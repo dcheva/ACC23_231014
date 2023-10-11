@@ -44,7 +44,7 @@
 	"pitInfoAlwaysVisible": 1,
 	"lightIndicators": 1,
 	"cameraSetNameLabel": 1,
-	"lastMfdScreen": 1,
+	"lastMfdScreen": 0,
 	"autoSwitchPitMFD": true,
 	"realtimeStandingPitFilter": 0
 }

@@ -34,7 +34,7 @@
 					"raceLength": -1,
 					"positionOnGrid": 1,
 					"timeMultiplier": 2,
-					"trackName": "monza",
+					"trackName": "brands_hatch",
 					"skillMultiplier": 90,
 					"aggroMultiplier": 90,
 					"p1_TimeOfDay": 14,
@@ -3117,7 +3117,7 @@
 	},
 	"globalSeasonTrackName":
 	{
-		"BP_2019": "monza"
+		"BP_2019": "brands_hatch"
 	},
 	"globalOpponentCount": 28,
 	"globalOpponentSkill": 90,
@@ -3131,7 +3131,7 @@
 	"bUseEnduranceKit": true,
 	"audio":
 	{
-		"main": 1,
+		"main": 0.75,
 		"engineExt": 0.5,
 		"engineInt": 0.5,
 		"wheel": 1,
