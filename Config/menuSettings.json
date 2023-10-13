@@ -20,9 +20,9 @@
 			{
 				"Practice":
 				{
-					"carName": "0-231011-144326.json",
+					"carName": "0-231013-172450.json",
 					"driverName": "driver1.json",
-					"opponentCount": 28,
+					"opponentCount": 24,
 					"carGroups":
 					{
 						"GT3": 1
@@ -33,8 +33,8 @@
 					"qualifyLength": 0,
 					"raceLength": -1,
 					"positionOnGrid": 1,
-					"timeMultiplier": 2,
-					"trackName": "silverstone",
+					"timeMultiplier": 1,
+					"trackName": "zandvoort",
 					"skillMultiplier": 90,
 					"aggroMultiplier": 90,
 					"p1_TimeOfDay": 14,
@@ -3117,9 +3117,9 @@
 	},
 	"globalSeasonTrackName":
 	{
-		"BP_2019": "silverstone"
+		"BP_2019": "zandvoort"
 	},
-	"globalOpponentCount": 28,
+	"globalOpponentCount": 24,
 	"globalOpponentSkill": 90,
 	"globalOpponentAggro": 90,
 	"globalPositionOnGrid": 1,
