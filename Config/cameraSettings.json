@@ -12,7 +12,7 @@
 	"helicamTargetCarsMaxDist": 2000,
 	"helicamTargetInterpTime": 1,
 	"helicamDebug": 0,
-	"cameraFOV": [ 54, 54, 54, 30, 54, 54, 54 ],
+	"cameraFOV": [ 54, 54, 54, 31, 54, 54, 54 ],
 	"mapCarCameraData":
 	{
 		"mclaren_720s_gt3_evo":

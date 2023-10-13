@@ -1,5 +1,5 @@
 {
-	"singlePlayerSeason": "BP_2019",
+	"singlePlayerSeason": "Free",
 	"seasonGameMode":
 	{
 		"BP_2019": "Practice",
@@ -2513,22 +2513,22 @@
 			{
 				"Practice":
 				{
-					"carName": "F_6_1",
-					"driverName": "Pierburg_V",
-					"opponentCount": 0,
+					"carName": "0-231013-172450.json",
+					"driverName": "driver1.json",
+					"opponentCount": 24,
 					"carGroups":
 					{
 					},
 					"raceEventType": "Free",
-					"timeOfDay": 9,
+					"timeOfDay": 14,
 					"practiceLength": 600,
 					"qualifyLength": 0,
-					"raceLength": 0,
+					"raceLength": -1,
 					"positionOnGrid": 1,
 					"timeMultiplier": 1,
-					"trackName": "nurburgring",
-					"skillMultiplier": 80,
-					"aggroMultiplier": 80,
+					"trackName": "zolder",
+					"skillMultiplier": 90,
+					"aggroMultiplier": 90,
 					"p1_TimeOfDay": 14,
 					"p2_Enabled": false,
 					"p2_TimeOfDay": 14,
@@ -3117,7 +3117,8 @@
 	},
 	"globalSeasonTrackName":
 	{
-		"BP_2019": "zandvoort"
+		"BP_2019": "zandvoort",
+		"Free": "zolder"
 	},
 	"globalOpponentCount": 24,
 	"globalOpponentSkill": 90,
