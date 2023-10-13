@@ -3132,7 +3132,7 @@
 	"bUseEnduranceKit": true,
 	"audio":
 	{
-		"main": 0.75,
+		"main": 0.5,
 		"engineExt": 0.5,
 		"engineInt": 0.5,
 		"wheel": 1,
@@ -3156,7 +3156,12 @@
 	"currentLanguage": "Russian",
 	"multiplayerCarGroupSelection":
 	{
-		"FREE_FOR_ALL": "S9_563_1"
+		"FREE_FOR_ALL": "0-231011-144326.json",
+		"GT3": "0-231011-144326.json",
+		"GT4": "BGT4_61_1",
+		"GTC": "SP_67_1",
+		"TCX": "M2CS_1_1",
+		"GT2": "None"
 	},
 	"templateOverrides":
 	{
@@ -3294,12 +3299,12 @@
 	"lastFilter": "All",
 	"lastSeasonFilter": "Free",
 	"mPShowroomCarGroup": "FREE_FOR_ALL",
-	"mPShowroomCarGroupFilter": "FREE_FOR_ALL",
-	"mPServerListCarGroupFilter": "FREE_FOR_ALL",
+	"mPShowroomCarGroupFilter": "GT3",
+	"mPServerListCarGroupFilter": "ANY",
 	"mpServerListFilter":
 	{
 		"sortMode": 0,
-		"accessibleOnly": false,
+		"accessibleOnly": true,
 		"pingLimit": 0
 	},
 	"carsPreloadMode": 2,

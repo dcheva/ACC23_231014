@@ -29,7 +29,7 @@
 	"proximityIndicatorsVisible": 1,
 	"useMPH": 0,
 	"greenLightsVisible": 1,
-	"showDriverNamePlates": 0,
+	"showDriverNamePlates": 1,
 	"chatPopupOnMessage": 1,
 	"chatMaxMessageCount": 30,
 	"chatShowTimestamps": 1,
