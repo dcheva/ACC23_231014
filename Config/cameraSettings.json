@@ -59,6 +59,96 @@
 				}
 			],
 			"pitches": [ 0, 0, 0, -0.099999986588954926, 0, 0, 0 ]
+		},
+		"lamborghini_huracan_st":
+		{
+			"cockpitVisMode": 0,
+			"dashInHud": false,
+			"dashInHudWidthLimit": true,
+			"dashOpacity": 1,
+			"offsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"pitches": [ 0, 0, 0, 0, 0, 0, 0 ]
+		},
+		"mercedes_amg_gt3":
+		{
+			"cockpitVisMode": 0,
+			"dashInHud": false,
+			"dashInHudWidthLimit": true,
+			"dashOpacity": 1,
+			"offsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": -29,
+					"y": 0,
+					"z": 10
+				},
+				{
+					"x": 6,
+					"y": 0,
+					"z": -1
+				},
+				{
+					"x": 13,
+					"y": 0,
+					"z": -2
+				},
+				{
+					"x": 6,
+					"y": 0,
+					"z": -1
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"pitches": [ 0, 0, 0, 0, 0, 0, 0 ]
 		}
 	},
 	"lookWithSteerGain": 0,

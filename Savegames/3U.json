@@ -1,0 +1,4423 @@
+{
+	"cars": [
+		{
+			"carId": 0,
+			"driverIndex": 0,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 613975,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.5,
+				"fuelPerMinute": 1.6720542907714844,
+				"lapTime": 89710,
+				"rainPitRandomizer": -0.0025519579648971558,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 120
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ true, true, true, true ],
+				"tyrePressures": [ 25.399999618530273, 25.600000381469727, 25.200000762939453, 25.399999618530273 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Dmytro Cheva",
+				"driversNames": [
+					"Dmytro Cheva",
+					"Dee Covan"
+				],
+				"driversStintTotalTimeLeft": [ 2281, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 30,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 1,
+				"rearBrakeCompound": 1,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 11.621132850646973,
+				"totalFuelUsedInSession": 2.1218690872192383,
+				"fuelPerSingleLap": 2.1218690872192383,
+				"fuelPerKm": 0.53593611717224121,
+				"fuelLapCount": 1
+			},
+			"tyreSets": [
+				{
+					"tyreSet": 0,
+					"wearStatus": [
+						{
+							"treadMM": [ 2.9824931621551514, 2.9837040901184082, 2.9849541187286377 ],
+							"grain": 0.80781751871109009,
+							"blister": 0,
+							"marblesLevel": 0.0041616917587816715,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 2.9918899536132813, 2.9929647445678711, 2.9940476417541504 ],
+							"grain": 0.71240746974945068,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 2.9742026329040527, 2.9766845703125, 2.9791462421417236 ],
+							"grain": 0.76491880416870117,
+							"blister": 0,
+							"marblesLevel": 0.003072790103033185,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 2.9846870899200439, 2.9880435466766357, 2.9912402629852295 ],
+							"grain": 0.73184573650360107,
+							"blister": 0,
+							"marblesLevel": 9.9242999567650259e-05,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 1,
+					"wearStatus": [
+						{
+							"treadMM": [ 2.9302186965942383, 2.9283902645111084, 2.9265637397766113 ],
+							"grain": 0.41491615772247314,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 2.940662145614624, 2.9456632137298584, 2.9505918025970459 ],
+							"grain": 0.47186967730522156,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 2.8995234966278076, 2.8969478607177734, 2.8921716213226318 ],
+							"grain": 0.73964333534240723,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 2.9007503986358643, 2.912916898727417, 2.9222877025604248 ],
+							"grain": 0.7390710711479187,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "Light"
+				},
+				{
+					"tyreSet": 2,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 3,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 4,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				}
+			],
+			"startingTyreSets": [
+				{
+					"tyreSet": 0,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 1,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 2,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 3,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 4,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				}
+			],
+			"currentTyreSet": 1,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0,
+			"lapCount": 4,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 1965,
+			"averageRelativeSpeed": 0.94556164741516113,
+			"carSetup":
+			{
+				"carName": "mercedes_amg_gt3",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 51, 53, 49, 51 ]
+					},
+					"alignment":
+					{
+						"camber": [ 36, 36, 18, 18 ],
+						"toe": [ 30, 30, 45, 45 ],
+						"staticCamber": [ -2.2808372974395752, -2.2795262336730957, -2.9047541618347168, -2.9034080505371094 ],
+						"toeOutLinear": [ 0.00010687187022995204, 0.00010688250767998397, 0.00014066039875615388, 0.00014068452583160251 ],
+						"casterLF": 34,
+						"casterRF": 34,
+						"steerRatio": 3
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 0,
+						"abs": 6,
+						"eCUMap": 1,
+						"fuelMix": 0,
+						"telemetryLaps": 10
+					},
+					"strategy":
+					{
+						"fuel": 18,
+						"nPitStops": 1,
+						"tyreSet": 1,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [
+							{
+								"fuelToAdd": 0,
+								"tyres":
+								{
+									"tyreCompound": 0,
+									"tyrePressure": [ 51, 53, 49, 51 ]
+								},
+								"tyreSet": 2,
+								"frontBrakePadCompound": 1,
+								"rearBrakePadCompound": 1
+							},
+							{
+								"fuelToAdd": 0,
+								"tyres":
+								{
+									"tyreCompound": 0,
+									"tyrePressure": [ 51, 53, 49, 51 ]
+								},
+								"tyreSet": 2,
+								"frontBrakePadCompound": 1,
+								"rearBrakePadCompound": 1
+							}
+						],
+						"fuelPerLap": 2.5
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 4,
+						"aRBRear": 6,
+						"wheelRate": [ 0, 0, 3, 3 ],
+						"bumpStopRateUp": [ 4, 4, 3, 3 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 25, 25, 50, 50 ],
+						"brakeTorque": 20,
+						"brakeBias": 55
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 4, 4, 5, 5 ],
+						"bumpFast": [ 5, 5, 8, 8 ],
+						"reboundSlow": [ 6, 6, 7, 7 ],
+						"reboundFast": [ 6, 6, 6, 6 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 9, 6, 12, 18 ],
+						"rodLength": [ 17.48004150390625, 17.48004150390625, 73.091384887695313, 73.091384887695313 ],
+						"splitter": 3,
+						"rearWing": 6,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 1
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 2,
+			"driverIndex": 1,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 18337,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.5,
+				"fuelPerMinute": 1.6720542907714844,
+				"lapTime": 89710,
+				"rainPitRandomizer": -0.0022272411733865738,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 120
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Michael Meadows",
+				"driversNames": [
+					"Raffaele Marciello",
+					"Michael Meadows"
+				],
+				"driversStintTotalTimeLeft": [ 2700, 2094 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 14.553444862365723,
+				"totalFuelUsedInSession": 3.8507204055786133,
+				"fuelPerSingleLap": 1.9253602027893066,
+				"fuelPerKm": 0.48630240559577942,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0.68000000715255737,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 806,
+			"averageRelativeSpeed": 0.93880003690719604,
+			"carSetup":
+			{
+				"carName": "mercedes_amg_gt3",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 50, 48, 48 ]
+					},
+					"alignment":
+					{
+						"camber": [ 36, 36, 17, 17 ],
+						"toe": [ 30, 30, 45, 45 ],
+						"staticCamber": [ -2.2880337238311768, -2.2880356311798096, -3.0063791275024414, -3.0063776969909668 ],
+						"toeOutLinear": [ 0.00011391283624107018, 0.00011391365114832297, 0.00014540644770022482, 0.00014539492258336395 ],
+						"casterLF": 33,
+						"casterRF": 33,
+						"steerRatio": 3
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 0,
+						"abs": 6,
+						"eCUMap": 1,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [],
+						"fuelPerLap": 2.5
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 4,
+						"aRBRear": 6,
+						"wheelRate": [ 0, 0, 3, 3 ],
+						"bumpStopRateUp": [ 4, 4, 3, 3 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 25, 25, 50, 50 ],
+						"brakeTorque": 20,
+						"brakeBias": 55
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 4, 4, 5, 5 ],
+						"bumpFast": [ 4, 4, 8, 8 ],
+						"reboundSlow": [ 7, 7, 7, 7 ],
+						"reboundFast": [ 6, 6, 6, 6 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 9, 6, 12, 18 ],
+						"rodLength": [ 18.040670394897461, 18.040670394897461, 75.049644470214844, 75.049644470214844 ],
+						"splitter": 3,
+						"rearWing": 6,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 1
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 13,
+			"driverIndex": 0,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 57122.5,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.5,
+				"fuelPerMinute": 1.6720542907714844,
+				"lapTime": 89710,
+				"rainPitRandomizer": -0.0088009275496006012,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 120
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Jack Manchester",
+				"driversNames": [
+					"Jack Manchester",
+					"Nico Bastian"
+				],
+				"driversStintTotalTimeLeft": [ 2133, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 14.705426216125488,
+				"totalFuelUsedInSession": 3.7945489883422852,
+				"fuelPerSingleLap": 1.8972744941711426,
+				"fuelPerKm": 0.47920858860015869,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0.35999998450279236,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 1326,
+			"averageRelativeSpeed": 0.87514799833297729,
+			"carSetup":
+			{
+				"carName": "mercedes_amg_gt3",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 50, 48, 48 ]
+					},
+					"alignment":
+					{
+						"camber": [ 36, 36, 17, 17 ],
+						"toe": [ 30, 30, 45, 45 ],
+						"staticCamber": [ -2.2880337238311768, -2.2880356311798096, -3.0063791275024414, -3.0063776969909668 ],
+						"toeOutLinear": [ 0.00011391283624107018, 0.00011391365114832297, 0.00014540644770022482, 0.00014539492258336395 ],
+						"casterLF": 33,
+						"casterRF": 33,
+						"steerRatio": 3
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 0,
+						"abs": 6,
+						"eCUMap": 1,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [],
+						"fuelPerLap": 2.5
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 4,
+						"aRBRear": 6,
+						"wheelRate": [ 0, 0, 3, 3 ],
+						"bumpStopRateUp": [ 4, 4, 3, 3 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 25, 25, 50, 50 ],
+						"brakeTorque": 20,
+						"brakeBias": 55
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 4, 4, 5, 5 ],
+						"bumpFast": [ 4, 4, 8, 8 ],
+						"reboundSlow": [ 7, 7, 7, 7 ],
+						"reboundFast": [ 6, 6, 6, 6 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 9, 6, 12, 18 ],
+						"rodLength": [ 18.040670394897461, 18.040670394897461, 75.049644470214844, 75.049644470214844 ],
+						"splitter": 3,
+						"rearWing": 6,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 1
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 4,
+			"driverIndex": 1,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 100250.5,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.4000000953674316,
+				"fuelPerMinute": 1.6051722764968872,
+				"lapTime": 89710,
+				"rainPitRandomizer": -0.019827874377369881,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 110
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Piti Bhirombhakdi",
+				"driversNames": [
+					"Carlo Van Dam",
+					"Piti Bhirombhakdi"
+				],
+				"driversStintTotalTimeLeft": [ 2700, 2183 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 14.013631820678711,
+				"totalFuelUsedInSession": 3.6735744476318359,
+				"fuelPerSingleLap": 1.836787223815918,
+				"fuelPerKm": 0.4639308750629425,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 1692,
+			"averageRelativeSpeed": 0.84637665748596191,
+			"carSetup":
+			{
+				"carName": "ferrari_488_gt3",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 51, 51, 53, 53 ]
+					},
+					"alignment":
+					{
+						"camber": [ 14, 14, 18, 18 ],
+						"toe": [ 20, 20, 60, 60 ],
+						"staticCamber": [ -2.5076024532318115, -2.5079135894775391, -2.093742847442627, -2.0925703048706055 ],
+						"toeOutLinear": [ 0.00036913805524818599, 0.00036914323573000729, -0.00018658737826626748, -0.00018651749996934086 ],
+						"casterLF": 46,
+						"casterRF": 46,
+						"steerRatio": 4
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 6,
+						"abs": 6,
+						"eCUMap": 0,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [],
+						"fuelPerLap": 2.4000000953674316
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 27,
+						"aRBRear": 1,
+						"wheelRate": [ 8, 8, 3, 3 ],
+						"bumpStopRateUp": [ 7, 7, 2, 2 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 0, 0, 50, 50 ],
+						"brakeTorque": 20,
+						"brakeBias": 56
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 8, 8, 6, 6 ],
+						"bumpFast": [ 2, 2, 3, 3 ],
+						"reboundSlow": [ 4, 4, 3, 3 ],
+						"reboundFast": [ 4, 4, 4, 4 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 5, 6, 5, 18 ],
+						"rodLength": [ -31.43876838684082, -31.43876838684082, -23.444789886474609, -23.444789886474609 ],
+						"splitter": 0,
+						"rearWing": 12,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 15
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 12,
+			"driverIndex": 0,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 27862.5,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.4000000953674316,
+				"fuelPerMinute": 1.6051722764968872,
+				"lapTime": 89710,
+				"rainPitRandomizer": 0.015701774507761002,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 110
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Rinat Salikhov",
+				"driversNames": [
+					"Rinat Salikhov",
+					"David Perel"
+				],
+				"driversStintTotalTimeLeft": [ 2104, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 14.029228210449219,
+				"totalFuelUsedInSession": 3.7114295959472656,
+				"fuelPerSingleLap": 1.8557147979736328,
+				"fuelPerKm": 0.46871155500411987,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0.68000000715255737,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 2750,
+			"averageRelativeSpeed": 0.92586749792098999,
+			"carSetup":
+			{
+				"carName": "ferrari_488_gt3",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 51, 51, 53, 53 ]
+					},
+					"alignment":
+					{
+						"camber": [ 14, 14, 18, 18 ],
+						"toe": [ 20, 20, 60, 60 ],
+						"staticCamber": [ -2.5076024532318115, -2.5079135894775391, -2.093742847442627, -2.0925703048706055 ],
+						"toeOutLinear": [ 0.00036913805524818599, 0.00036914323573000729, -0.00018658737826626748, -0.00018651749996934086 ],
+						"casterLF": 46,
+						"casterRF": 46,
+						"steerRatio": 4
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 6,
+						"abs": 6,
+						"eCUMap": 0,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [],
+						"fuelPerLap": 2.4000000953674316
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 27,
+						"aRBRear": 1,
+						"wheelRate": [ 8, 8, 3, 3 ],
+						"bumpStopRateUp": [ 7, 7, 2, 2 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 0, 0, 50, 50 ],
+						"brakeTorque": 20,
+						"brakeBias": 56
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 8, 8, 6, 6 ],
+						"bumpFast": [ 2, 2, 3, 3 ],
+						"reboundSlow": [ 4, 4, 3, 3 ],
+						"reboundFast": [ 4, 4, 4, 4 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 5, 6, 5, 18 ],
+						"rodLength": [ -31.43876838684082, -31.43876838684082, -23.444789886474609, -23.444789886474609 ],
+						"splitter": 0,
+						"rearWing": 12,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 15
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 1,
+			"driverIndex": 0,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 29133.5,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.4500000476837158,
+				"fuelPerMinute": 1.6386133432388306,
+				"lapTime": 89710,
+				"rainPitRandomizer": 0.018206734210252762,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 120
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Dries Vanthoor",
+				"driversNames": [
+					"Dries Vanthoor",
+					"Will Stevens"
+				],
+				"driversStintTotalTimeLeft": [ 2106, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 14.116321563720703,
+				"totalFuelUsedInSession": 3.8728580474853516,
+				"fuelPerSingleLap": 1.9364290237426758,
+				"fuelPerKm": 0.48909813165664673,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0.68000000715255737,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 1313,
+			"averageRelativeSpeed": 0.86995798349380493,
+			"carSetup":
+			{
+				"carName": "audi_r8_lms",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 50, 48, 48 ]
+					},
+					"alignment":
+					{
+						"camber": [ 14, 14, 18, 18 ],
+						"toe": [ 20, 20, 65, 65 ],
+						"staticCamber": [ -3.7917501926422119, -3.8470988273620605, -2.9773476123809814, -3.0260810852050781 ],
+						"toeOutLinear": [ 0.00067260896321386099, 0.00065363338217139244, 0.00084684201283380389, 0.00084990507457405329 ],
+						"casterLF": 15,
+						"casterRF": 15,
+						"steerRatio": 4
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 0,
+						"abs": 6,
+						"eCUMap": 1,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [],
+						"fuelPerLap": 2.4500000476837158
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 4,
+						"aRBRear": 0,
+						"wheelRate": [ 1, 0, 1, 1 ],
+						"bumpStopRateUp": [ 5, 5, 2, 2 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 4, 4, 60, 60 ],
+						"brakeTorque": 20,
+						"brakeBias": 65
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 20, 20, 14, 14 ],
+						"bumpFast": [ 18, 20, 10, 10 ],
+						"reboundSlow": [ 25, 25, 14, 14 ],
+						"reboundFast": [ 20, 20, 16, 16 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 8, 6, 12, 18 ],
+						"rodLength": [ 38.048408508300781, 38.048408508300781, 18.052448272705078, 18.052448272705078 ],
+						"splitter": 0,
+						"rearWing": 4,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 6
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 5,
+			"driverIndex": 1,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 18163.5,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.4500000476837158,
+				"fuelPerMinute": 1.6386133432388306,
+				"lapTime": 89710,
+				"rainPitRandomizer": 0.011562243103981018,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 120
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Steijn Schothorst",
+				"driversNames": [
+					"Kelvin van der Linde",
+					"Steijn Schothorst"
+				],
+				"driversStintTotalTimeLeft": [ 2700, 2099 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 13.850561141967773,
+				"totalFuelUsedInSession": 3.9454803466796875,
+				"fuelPerSingleLap": 1.9727401733398438,
+				"fuelPerKm": 0.49826949834823608,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0.68000000715255737,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 3353,
+			"averageRelativeSpeed": 0.93110144138336182,
+			"carSetup":
+			{
+				"carName": "audi_r8_lms",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 50, 48, 48 ]
+					},
+					"alignment":
+					{
+						"camber": [ 14, 14, 18, 18 ],
+						"toe": [ 20, 20, 65, 65 ],
+						"staticCamber": [ -3.7917501926422119, -3.8470988273620605, -2.9773476123809814, -3.0260810852050781 ],
+						"toeOutLinear": [ 0.00067260896321386099, 0.00065363338217139244, 0.00084684201283380389, 0.00084990507457405329 ],
+						"casterLF": 15,
+						"casterRF": 15,
+						"steerRatio": 4
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 0,
+						"abs": 6,
+						"eCUMap": 1,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [],
+						"fuelPerLap": 2.4500000476837158
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 4,
+						"aRBRear": 0,
+						"wheelRate": [ 1, 0, 1, 1 ],
+						"bumpStopRateUp": [ 5, 5, 2, 2 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 4, 4, 60, 60 ],
+						"brakeTorque": 20,
+						"brakeBias": 65
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 20, 20, 14, 14 ],
+						"bumpFast": [ 18, 20, 10, 10 ],
+						"reboundSlow": [ 25, 25, 14, 14 ],
+						"reboundFast": [ 20, 20, 16, 16 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 8, 6, 12, 18 ],
+						"rodLength": [ 38.048408508300781, 38.048408508300781, 18.052448272705078, 18.052448272705078 ],
+						"splitter": 0,
+						"rearWing": 4,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 6
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 7,
+			"driverIndex": 0,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 75589.5,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.4500000476837158,
+				"fuelPerMinute": 1.6386133432388306,
+				"lapTime": 89710,
+				"rainPitRandomizer": 0.019251685589551926,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 120
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Alex Riberas",
+				"driversNames": [
+					"Alex Riberas",
+					"Christopher Mies"
+				],
+				"driversStintTotalTimeLeft": [ 2153, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 13.851302146911621,
+				"totalFuelUsedInSession": 3.9505777359008789,
+				"fuelPerSingleLap": 1.9752888679504395,
+				"fuelPerKm": 0.49891325831413269,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0.35999998450279236,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 1866,
+			"averageRelativeSpeed": 0.91822701692581177,
+			"carSetup":
+			{
+				"carName": "audi_r8_lms",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 50, 48, 48 ]
+					},
+					"alignment":
+					{
+						"camber": [ 14, 14, 18, 18 ],
+						"toe": [ 20, 20, 65, 65 ],
+						"staticCamber": [ -3.7917501926422119, -3.8470988273620605, -2.9773476123809814, -3.0260810852050781 ],
+						"toeOutLinear": [ 0.00067260896321386099, 0.00065363338217139244, 0.00084684201283380389, 0.00084990507457405329 ],
+						"casterLF": 15,
+						"casterRF": 15,
+						"steerRatio": 4
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 0,
+						"abs": 6,
+						"eCUMap": 1,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [],
+						"fuelPerLap": 2.4500000476837158
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 4,
+						"aRBRear": 0,
+						"wheelRate": [ 1, 0, 1, 1 ],
+						"bumpStopRateUp": [ 5, 5, 2, 2 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 4, 4, 60, 60 ],
+						"brakeTorque": 20,
+						"brakeBias": 65
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 20, 20, 14, 14 ],
+						"bumpFast": [ 18, 20, 10, 10 ],
+						"reboundSlow": [ 25, 25, 14, 14 ],
+						"reboundFast": [ 20, 20, 16, 16 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 8, 6, 12, 18 ],
+						"rodLength": [ 38.048408508300781, 38.048408508300781, 18.052448272705078, 18.052448272705078 ],
+						"splitter": 0,
+						"rearWing": 4,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 6
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 9,
+			"driverIndex": 1,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 103259.5,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.4500000476837158,
+				"fuelPerMinute": 1.6386133432388306,
+				"lapTime": 89710,
+				"rainPitRandomizer": 0.015875119715929031,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 120
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Nyls Stievenart",
+				"driversNames": [
+					"Markus Winkelhock",
+					"Nyls Stievenart"
+				],
+				"driversStintTotalTimeLeft": [ 2700, 2190 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 13.884393692016602,
+				"totalFuelUsedInSession": 3.9143161773681641,
+				"fuelPerSingleLap": 1.957158088684082,
+				"fuelPerKm": 0.49433383345603943,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 507,
+			"averageRelativeSpeed": 0.85624253749847412,
+			"carSetup":
+			{
+				"carName": "audi_r8_lms",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 50, 48, 48 ]
+					},
+					"alignment":
+					{
+						"camber": [ 14, 14, 18, 18 ],
+						"toe": [ 20, 20, 65, 65 ],
+						"staticCamber": [ -3.7917501926422119, -3.8470988273620605, -2.9773476123809814, -3.0260810852050781 ],
+						"toeOutLinear": [ 0.00067260896321386099, 0.00065363338217139244, 0.00084684201283380389, 0.00084990507457405329 ],
+						"casterLF": 15,
+						"casterRF": 15,
+						"steerRatio": 4
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 0,
+						"abs": 6,
+						"eCUMap": 1,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [],
+						"fuelPerLap": 2.4500000476837158
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 4,
+						"aRBRear": 0,
+						"wheelRate": [ 1, 0, 1, 1 ],
+						"bumpStopRateUp": [ 5, 5, 2, 2 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 4, 4, 60, 60 ],
+						"brakeTorque": 20,
+						"brakeBias": 65
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 20, 20, 14, 14 ],
+						"bumpFast": [ 18, 20, 10, 10 ],
+						"reboundSlow": [ 25, 25, 14, 14 ],
+						"reboundFast": [ 20, 20, 16, 16 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 8, 6, 12, 18 ],
+						"rodLength": [ 38.048408508300781, 38.048408508300781, 18.052448272705078, 18.052448272705078 ],
+						"splitter": 0,
+						"rearWing": 4,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 6
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 10,
+			"driverIndex": 0,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 31861.5,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.4500000476837158,
+				"fuelPerMinute": 1.6386133432388306,
+				"lapTime": 89710,
+				"rainPitRandomizer": 0.017277751117944717,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 120
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Simon Gachet",
+				"driversNames": [
+					"Simon Gachet",
+					"Christopher Haase"
+				],
+				"driversStintTotalTimeLeft": [ 2114, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 13.891019821166992,
+				"totalFuelUsedInSession": 3.9111595153808594,
+				"fuelPerSingleLap": 1.9555797576904297,
+				"fuelPerKm": 0.49393516778945923,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0.68000000715255737,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 11243,
+			"averageRelativeSpeed": 0.82027524709701538,
+			"carSetup":
+			{
+				"carName": "audi_r8_lms",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 50, 48, 48 ]
+					},
+					"alignment":
+					{
+						"camber": [ 14, 14, 18, 18 ],
+						"toe": [ 20, 20, 65, 65 ],
+						"staticCamber": [ -3.7917501926422119, -3.8470988273620605, -2.9773476123809814, -3.0260810852050781 ],
+						"toeOutLinear": [ 0.00067260896321386099, 0.00065363338217139244, 0.00084684201283380389, 0.00084990507457405329 ],
+						"casterLF": 15,
+						"casterRF": 15,
+						"steerRatio": 4
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 0,
+						"abs": 6,
+						"eCUMap": 1,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [],
+						"fuelPerLap": 2.4500000476837158
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 4,
+						"aRBRear": 0,
+						"wheelRate": [ 1, 0, 1, 1 ],
+						"bumpStopRateUp": [ 5, 5, 2, 2 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 4, 4, 60, 60 ],
+						"brakeTorque": 20,
+						"brakeBias": 65
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 20, 20, 14, 14 ],
+						"bumpFast": [ 18, 20, 10, 10 ],
+						"reboundSlow": [ 25, 25, 14, 14 ],
+						"reboundFast": [ 20, 20, 16, 16 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 8, 6, 12, 18 ],
+						"rodLength": [ 38.048408508300781, 38.048408508300781, 18.052448272705078, 18.052448272705078 ],
+						"splitter": 0,
+						"rearWing": 4,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 6
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 11,
+			"driverIndex": 0,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 58929.5,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.4500000476837158,
+				"fuelPerMinute": 1.6386133432388306,
+				"lapTime": 89710,
+				"rainPitRandomizer": 0.0074861906468868256,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 120
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Stuart Leonard",
+				"driversNames": [
+					"Stuart Leonard",
+					"Robin Frijns"
+				],
+				"driversStintTotalTimeLeft": [ 2137, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 13.882675170898438,
+				"totalFuelUsedInSession": 3.9285087585449219,
+				"fuelPerSingleLap": 1.9642543792724609,
+				"fuelPerKm": 0.4961262047290802,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0.35999998450279236,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 9536,
+			"averageRelativeSpeed": 0.87632274627685547,
+			"carSetup":
+			{
+				"carName": "audi_r8_lms",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 50, 48, 48 ]
+					},
+					"alignment":
+					{
+						"camber": [ 14, 14, 18, 18 ],
+						"toe": [ 20, 20, 65, 65 ],
+						"staticCamber": [ -3.7917501926422119, -3.8470988273620605, -2.9773476123809814, -3.0260810852050781 ],
+						"toeOutLinear": [ 0.00067260896321386099, 0.00065363338217139244, 0.00084684201283380389, 0.00084990507457405329 ],
+						"casterLF": 15,
+						"casterRF": 15,
+						"steerRatio": 4
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 0,
+						"abs": 6,
+						"eCUMap": 1,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [],
+						"fuelPerLap": 2.4500000476837158
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 4,
+						"aRBRear": 0,
+						"wheelRate": [ 1, 0, 1, 1 ],
+						"bumpStopRateUp": [ 5, 5, 2, 2 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 4, 4, 60, 60 ],
+						"brakeTorque": 20,
+						"brakeBias": 65
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 20, 20, 14, 14 ],
+						"bumpFast": [ 18, 20, 10, 10 ],
+						"reboundSlow": [ 25, 25, 14, 14 ],
+						"reboundFast": [ 20, 20, 16, 16 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 8, 6, 12, 18 ],
+						"rodLength": [ 38.048408508300781, 38.048408508300781, 18.052448272705078, 18.052448272705078 ],
+						"splitter": 0,
+						"rearWing": 4,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 6
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 3,
+			"driverIndex": 1,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 71456.5,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.5099999904632568,
+				"fuelPerMinute": 1.678742527961731,
+				"lapTime": 89710,
+				"rainPitRandomizer": -0.0070357369258999825,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 120
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Christian Engelhart",
+				"driversNames": [
+					"Mirko Bortolotti",
+					"Christian Engelhart"
+				],
+				"driversStintTotalTimeLeft": [ 2700, 2154 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 14.42747974395752,
+				"totalFuelUsedInSession": 3.991612434387207,
+				"fuelPerSingleLap": 1.9958062171936035,
+				"fuelPerKm": 0.50409549474716187,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0.35999998450279236,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 35352,
+			"averageRelativeSpeed": 0.89841330051422119,
+			"carSetup":
+			{
+				"carName": "lamborghini_huracan_gt3",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 50, 48, 48 ]
+					},
+					"alignment":
+					{
+						"camber": [ 14, 14, 18, 18 ],
+						"toe": [ 20, 20, 65, 65 ],
+						"staticCamber": [ -3.456897497177124, -3.4349539279937744, -2.9361622333526611, -2.9193439483642578 ],
+						"toeOutLinear": [ 0.00080689252354204655, 0.00081055355258285999, 0.00057413987815380096, 0.00057367567205801606 ],
+						"casterLF": 15,
+						"casterRF": 15,
+						"steerRatio": 1
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 0,
+						"abs": 6,
+						"eCUMap": 1,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [],
+						"fuelPerLap": 2.5099999904632568
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 7,
+						"aRBRear": 1,
+						"wheelRate": [ 2, 2, 1, 1 ],
+						"bumpStopRateUp": [ 6, 6, 2, 2 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 0, 0, 40, 40 ],
+						"brakeTorque": 20,
+						"brakeBias": 55
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 20, 20, 15, 15 ],
+						"bumpFast": [ 20, 20, 20, 20 ],
+						"reboundSlow": [ 20, 20, 15, 15 ],
+						"reboundFast": [ 25, 25, 25, 25 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 6, 6, 16, 18 ],
+						"rodLength": [ -2.2276167869567871, -2.2276167869567871, 19.681886672973633, 19.681886672973633 ],
+						"splitter": 0,
+						"rearWing": 9,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 16
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 6,
+			"driverIndex": 1,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 20905.5,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.5099999904632568,
+				"fuelPerMinute": 1.678742527961731,
+				"lapTime": 89710,
+				"rainPitRandomizer": 0.014439526945352554,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 120
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Loris Hezemans",
+				"driversNames": [
+					"Franck Perera",
+					"Loris Hezemans"
+				],
+				"driversStintTotalTimeLeft": [ 2700, 2104 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 14.271092414855957,
+				"totalFuelUsedInSession": 3.998051643371582,
+				"fuelPerSingleLap": 1.999025821685791,
+				"fuelPerKm": 0.50490868091583252,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0.68000000715255737,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 12918,
+			"averageRelativeSpeed": 0.91487878561019897,
+			"carSetup":
+			{
+				"carName": "lamborghini_huracan_gt3",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 50, 48, 48 ]
+					},
+					"alignment":
+					{
+						"camber": [ 14, 14, 18, 18 ],
+						"toe": [ 20, 20, 65, 65 ],
+						"staticCamber": [ -3.456897497177124, -3.4349539279937744, -2.9361622333526611, -2.9193439483642578 ],
+						"toeOutLinear": [ 0.00080689252354204655, 0.00081055355258285999, 0.00057413987815380096, 0.00057367567205801606 ],
+						"casterLF": 15,
+						"casterRF": 15,
+						"steerRatio": 1
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 0,
+						"abs": 6,
+						"eCUMap": 1,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [],
+						"fuelPerLap": 2.5099999904632568
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 7,
+						"aRBRear": 1,
+						"wheelRate": [ 2, 2, 1, 1 ],
+						"bumpStopRateUp": [ 6, 6, 2, 2 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 0, 0, 40, 40 ],
+						"brakeTorque": 20,
+						"brakeBias": 55
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 20, 20, 15, 15 ],
+						"bumpFast": [ 20, 20, 20, 20 ],
+						"reboundSlow": [ 20, 20, 15, 15 ],
+						"reboundFast": [ 25, 25, 25, 25 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 6, 6, 16, 18 ],
+						"rodLength": [ -2.2276167869567871, -2.2276167869567871, 19.681886672973633, 19.681886672973633 ],
+						"splitter": 0,
+						"rearWing": 9,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 16
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 8,
+			"driverIndex": 0,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 103080.5,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.5099999904632568,
+				"fuelPerMinute": 1.678742527961731,
+				"lapTime": 89710,
+				"rainPitRandomizer": 0.012881863862276077,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 120
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Ezequiel Companc",
+				"driversNames": [
+					"Ezequiel Companc",
+					"Andrea Caldarelli"
+				],
+				"driversStintTotalTimeLeft": [ 2191, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 14.239356994628906,
+				"totalFuelUsedInSession": 4.0028705596923828,
+				"fuelPerSingleLap": 2.0014352798461914,
+				"fuelPerKm": 0.50551724433898926,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 4161,
+			"averageRelativeSpeed": 0.87784069776535034,
+			"carSetup":
+			{
+				"carName": "lamborghini_huracan_gt3",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 50, 48, 48 ]
+					},
+					"alignment":
+					{
+						"camber": [ 14, 14, 18, 18 ],
+						"toe": [ 20, 20, 65, 65 ],
+						"staticCamber": [ -3.456897497177124, -3.4349539279937744, -2.9361622333526611, -2.9193439483642578 ],
+						"toeOutLinear": [ 0.00080689252354204655, 0.00081055355258285999, 0.00057413987815380096, 0.00057367567205801606 ],
+						"casterLF": 15,
+						"casterRF": 15,
+						"steerRatio": 1
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 0,
+						"abs": 6,
+						"eCUMap": 1,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [],
+						"fuelPerLap": 2.5099999904632568
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 7,
+						"aRBRear": 1,
+						"wheelRate": [ 2, 2, 1, 1 ],
+						"bumpStopRateUp": [ 6, 6, 2, 2 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 0, 0, 40, 40 ],
+						"brakeTorque": 20,
+						"brakeBias": 55
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 20, 20, 15, 15 ],
+						"bumpFast": [ 20, 20, 20, 20 ],
+						"reboundSlow": [ 20, 20, 15, 15 ],
+						"reboundFast": [ 25, 25, 25, 25 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 6, 6, 16, 18 ],
+						"rodLength": [ -2.2276167869567871, -2.2276167869567871, 19.681886672973633, 19.681886672973633 ],
+						"splitter": 0,
+						"rearWing": 9,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 16
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 14,
+			"driverIndex": 0,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 33306.5,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.6600000858306885,
+				"fuelPerMinute": 1.7790659666061401,
+				"lapTime": 89710,
+				"rainPitRandomizer": 0.019166234880685806,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 132
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Ian Loggie",
+				"driversNames": [
+					"Ian Loggie",
+					"Callum Macleod"
+				],
+				"driversStintTotalTimeLeft": [ 2117, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 15.609354972839355,
+				"totalFuelUsedInSession": 4.0489492416381836,
+				"fuelPerSingleLap": 2.0244746208190918,
+				"fuelPerKm": 0.51133644580841064,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 2,
+			"currentRearBrakeCompound": 2,
+			"lastSplitNpos": 0.35999998450279236,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 11143,
+			"averageRelativeSpeed": 0.85190165042877197,
+			"carSetup":
+			{
+				"carName": "bentley_continental_gt3_2016",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 50, 50, 50 ]
+					},
+					"alignment":
+					{
+						"camber": [ 5, 5, 5, 5 ],
+						"toe": [ 30, 30, 65, 65 ],
+						"staticCamber": [ -3.3878169059753418, -3.3775300979614258, -2.42551589012146, -2.4167420864105225 ],
+						"toeOutLinear": [ 0.00032299998565576971, 0.00032299998565576971, -0.0011210000375285745, -0.0011210000375285745 ],
+						"casterLF": 23,
+						"casterRF": 23,
+						"steerRatio": 5
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 0,
+						"abs": 6,
+						"eCUMap": 0,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 2,
+						"rearBrakePadCompound": 2,
+						"pitStrategy": [],
+						"fuelPerLap": 2.6600000858306885
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 5,
+						"aRBRear": 1,
+						"wheelRate": [ 7, 7, 3, 3 ],
+						"bumpStopRateUp": [ 5, 5, 4, 4 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 5, 5, 55, 55 ],
+						"brakeTorque": 20,
+						"brakeBias": 60
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 27, 27, 20, 20 ],
+						"bumpFast": [ 20, 20, 15, 15 ],
+						"reboundSlow": [ 26, 26, 18, 18 ],
+						"reboundFast": [ 25, 25, 25, 25 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 11, 6, 21, 18 ],
+						"rodLength": [ 16.079875946044922, 16.079875946044922, 6.9198570251464844, 6.9198570251464844 ],
+						"splitter": 0,
+						"rearWing": 9,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 10
+					}
+				},
+				"trackBopType": 3
+			}
+		},
+		{
+			"carId": 15,
+			"driverIndex": 1,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": true,
+				"startTimeMs": 77109.5,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 3,
+				"fuelPerMinute": 2.0064651966094971,
+				"lapTime": 89710,
+				"rainPitRandomizer": -0.0073787644505500793,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0, 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 130
+				},
+				"refuellingAllowed": false,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": true,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Pierre Feligioni",
+				"driversNames": [
+					"Claude-Yves Gosselin",
+					"Pierre Feligioni"
+				],
+				"driversStintTotalTimeLeft": [ 2700, 2170 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": true,
+				"isTyreChangeRequired": true,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": true,
+				"hasDriverStintRule": true,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 1
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 18.886375427246094,
+				"totalFuelUsedInSession": 4.0417213439941406,
+				"fuelPerSingleLap": 2.0208606719970703,
+				"fuelPerKm": 0.51042366027832031,
+				"fuelLapCount": 2
+			},
+			"tyreSets": [],
+			"startingTyreSets": [],
+			"currentTyreSet": 0,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0,
+			"lapCount": 5,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 1681,
+			"averageRelativeSpeed": 0.82877826690673828,
+			"carSetup":
+			{
+				"carName": "lamborghini_gallardo_rex",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 50, 48, 48 ]
+					},
+					"alignment":
+					{
+						"camber": [ 14, 14, 15, 15 ],
+						"toe": [ 20, 20, 65, 65 ],
+						"staticCamber": [ -0.98244339227676392, -0.99168920516967773, -2.4649996757507324, -2.4735643863677979 ],
+						"toeOutLinear": [ 3.3915880521817598e-06, 3.2385339636675781e-06, 0.00053380115423351526, 0.00053379731252789497 ],
+						"casterLF": 15,
+						"casterRF": 15,
+						"steerRatio": 1
+					},
+					"electronics":
+					{
+						"tC1": 6,
+						"tC2": 0,
+						"abs": 6,
+						"eCUMap": 3,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [
+							{
+								"fuelToAdd": 0,
+								"tyres":
+								{
+									"tyreCompound": 0,
+									"tyrePressure": [ 50, 50, 48, 48 ]
+								},
+								"tyreSet": 2,
+								"frontBrakePadCompound": 1,
+								"rearBrakePadCompound": 1
+							}
+						],
+						"fuelPerLap": 3
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 4,
+						"aRBRear": 4,
+						"wheelRate": [ 8, 8, 10, 10 ],
+						"bumpStopRateUp": [ 7, 7, 2, 2 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 2, 2, 72, 72 ],
+						"brakeTorque": 20,
+						"brakeBias": 55
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 20, 20, 18, 18 ],
+						"bumpFast": [ 8, 8, 10, 10 ],
+						"reboundSlow": [ 15, 15, 24, 24 ],
+						"reboundFast": [ 30, 30, 35, 35 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 6, 6, 21, 18 ],
+						"rodLength": [ -69.694839477539063, -69.694839477539063, -53.372367858886719, -53.372367858886719 ],
+						"splitter": 0,
+						"rearWing": 16,
+						"brakeDuct": [ 4, 4 ]
+					},
+					"drivetrain":
+					{
+						"preload": 13
+					}
+				},
+				"trackBopType": 3
+			}
+		}
+	],
+	"leaderLapCountAtStart": 0,
+	"isPitlaneOpen": true
+}
